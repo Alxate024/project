@@ -80,7 +80,7 @@ const App = () => {
     {
       icon: Database,
       title: "1. Recolección de Datos",
-      description: "Adquisición y recopilación de datos relevantes de diversas fuentes para el modelo."
+      description: "Adquisición y recopilación de datos relevantes de diversas fuentes para el  basado en la base de datos oficiales:https://www.datos.gov.co/Ciencia-Tecnolog-a-e-Innovaci-n/Grupos-de-Investigaci-n-Reconocidos/hrhc-c4wu/about_data."
     },
     {
       icon: Wrench,

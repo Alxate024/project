@@ -17,7 +17,8 @@ export default function HomeContent() {
         transition={{ duration: 1 }}
         className="text-6xl md:text-7xl font-extrabold tracking-wide drop-shadow-[0_0_25px_#00ffe5] z-10"
       >
-        🌐 Proyecto Tecnológico
+        🤖DIAGNÓSTICO SOBRE LOS GRUPOS DE 
+INVESTIGACIÓN ACADÉMICA EN COLOMBIA ⚛️
       </motion.h1>
 
       <motion.h2
@@ -26,10 +27,11 @@ export default function HomeContent() {
         transition={{ delay: 0.5, duration: 1 }}
         className="text-2xl md:text-3xl font-semibold mt-4 text-purple-400 drop-shadow-[0_0_15px_#a855f7] z-10"
       >
-        Proyecto Tecnologicos en Colombia
+        Analizar la relevancia que el Estado colombiano otorga a la investigación tecnológica, en Colombia
       </motion.h2>
 
       {/* Texto descriptivo */}
+
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

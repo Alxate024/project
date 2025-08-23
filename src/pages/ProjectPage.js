@@ -140,19 +140,14 @@ export default function ProyectPage() {
               <div className="aspect-video bg-gray-100 rounded-lg border border-gray-300 flex items-center justify-center mb-4">
                 {/* Aquí va el video de Romel */}
                 <div className="text-center text-gray-500">
-                  <svg
-                    className="mx-auto h-12 w-12 mb-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.5a2.5 2.5 0 110 5H9zm4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                    />
-                  </svg>
+                  <video
+                  controls
+                  className="w-full h-full object-cover rounded-lg"
+                  poster="/videos/alzate-thumbnail.jpg"
+                >
+                  <source src="/videos/Bayer_IA.mp4" type="video/mp4" />
+                  Tu navegador no soporta el elemento video.
+                </video>
                   <p className="text-sm">Video presentación D-ID</p>
                   <p className="text-xs text-gray-400">Sube aquí el video de Romel</p>
                 </div>
